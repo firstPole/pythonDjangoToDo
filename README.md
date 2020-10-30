@@ -20,10 +20,10 @@
     path('hello/',include("hello.urls")),
     path('tasks/',include("tasks.urls")),
     path('newyear/',include("newyear.urls"))
-] ```
+] 
 
-* Under each application add urls.py to specify local routing for that speicific application like
+** Under each application add urls.py to specify local routing for that speicific application like
 ```urlpatterns = [
     path("",views.index,name="index"),
     path("add", views.add,name="add")
-]```
+]
