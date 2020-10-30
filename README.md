@@ -7,11 +7,11 @@
 * django 3.1.2
 
 **Create django template project using**
-```python manage.py startproject```
+```django-admin startproject projectname```
 
 - It consists of 3 applications for learning purpose (hello, newyear, ToDo-Tasks)
 * To create 3 different application under django project
-```python manage.py startapp```
+```django-admin startapp appname```
 
 - Under the project settings.py, include abvoe creted apps under 'INSTALLED_APPS'
 - Under urls.py specify the urlpatterns by including paths for 3 different apps under 'urlpatterns' like 
