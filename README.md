@@ -11,7 +11,7 @@
 
 - It consists of 3 applications for learning purpose (hello, newyear, ToDo-Tasks)
 * To create 3 different application under django project
-```django-admin startapp appname```
+```python manage.py startapp appname```
 
 - Under the project settings.py, include abvoe creted apps under 'INSTALLED_APPS'
 - Under urls.py specify the urlpatterns by including paths for 3 different apps under 'urlpatterns' like 
