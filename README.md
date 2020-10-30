@@ -7,7 +7,7 @@
 * django 3.1.2
 
 **Create django template project using**
-*python manage.py startproject
+*python manage.py startproject*
 
 - It consists of 3 applications for learning purpose (hello, newyear, ToDo-Tasks)
 * To create 3 different application under django project
@@ -22,7 +22,7 @@
     path('newyear/',include("newyear.urls"))
 ] 
 
-** Under each application add urls.py to specify local routing for that speicific application like
+* Under each application add urls.py to specify local routing for that speicific application like*
 ```urlpatterns = [
     path("",views.index,name="index"),
     path("add", views.add,name="add")
